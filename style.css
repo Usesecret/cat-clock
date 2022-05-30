@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+    font-family:  san-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+.page{
+    width: 80%;
+    max-width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #5bd18aa8;
+    border-radius: 5px;
+}
+header,h4{
+    font-size: 24px;
+    font-family: cursive;
+}
+h4 #clock{
+    font-size: 36px;
+    display: block;
+    padding: 5px 0px;
+}
+#black-cat{
+    max-width: 30em;
+}
+blockquote{
+    font: 2em/1em ,san-serif;
+    text-shadow: 2px 2px #000;
+    margin: -80px 0 100px 0;
+    color: #fff;
+}
+blockquote:before { content: '"'; }
+blockquote:after { content: '"'; }
+#wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
+    padding: 10px 0;
+}
+#partyTimeButton {
+    background-color: #222;
+    width: 300px;
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+}
